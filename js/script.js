@@ -202,7 +202,7 @@
             if (taskToDelete !== null) {
                 tasks.splice(taskToDelete, 1);
                 saveTasks();
-                renderTasks();s
+                renderTasks();
                 hideDeleteModal();
             }
         });
